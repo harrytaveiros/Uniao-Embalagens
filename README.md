@@ -42,10 +42,4 @@ O código segue a padronização do mercado, isolando regras de ambiente da lóg
 
 ---
 
-## 🛠️ Como rodar o projeto localmente
 
-Se deseja clonar este repositório e testar o código na sua máquina, siga os passos abaixo:
-
-1. Clone o repositório:
-```bash
-git clone [https://github.com/SEU_USUARIO/uniao-embalagens-web.git](https://github.com/SEU_USUARIO/uniao-embalagens-web.git)
