@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 União Embalagens - E-commerce
 
-## Getting Started
+Um front-end moderno, rápido e responsivo de um e-commerce especializado em embalagens, artigos de festa, produtos de limpeza e materiais de escritório. 
 
-First, run the development server:
+Projeto desenvolvido como vitrine tecnológica utilizando as melhores práticas do ecossistema React.
 
+🚀 **[Acesse o projeto ao vivo aqui!](https://uniao-embalagens.vercel.app/)**
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+Este projeto foi construído com as ferramentas mais modernas do desenvolvimento Front-end:
+
+*   **Framework:** Next.js (App Router)
+*   **Biblioteca:** React
+*   **Linguagem:** TypeScript
+*   **Estilização:** Tailwind CSS (v4)
+*   **Deploy:** Vercel
+
+---
+
+## ✨ Funcionalidades e Telas
+
+A aplicação simula o fluxo completo de compra de um utilizador:
+
+*   **Página Inicial (`/`):** Hero section de alto impacto com navegação rápida por categorias.
+*   **Catálogo (`/produtos`):** Grade de produtos responsiva com barra lateral estática para filtros por categoria, preço e marca.
+*   **Detalhes do Produto (`/produto`):** Galeria de imagens, seletor de quantidade com validação de estado (React State) e notificações visuais (Toasts) de adição ao carrinho.
+*   **Carrinho de Compras (`/carrinho`):** Gestão de estado dinâmica com cálculo automático de subtotal, controle de quantidade e opção de remover itens, além de resumo do pedido fixo (Sticky Sidebar).
+*   **Autenticação (`/login`):** Interface limpa e centralizada para login e cadastro de utilizadores.
+
+---
+
+## ⚙️ Arquitetura do Projeto
+
+O código segue a padronização do mercado, isolando regras de ambiente da lógica visual utilizando a pasta `src`.
+
+*   **`src/app/`**: Sistema de roteamento (App Router) nativo do Next.js.
+*   **`src/components/`**: Componentes globais isolados (Header, Footer).
+*   **`globals.css`**: Configuração central do Tailwind CSS via `@source`.
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+Se deseja clonar este repositório e testar o código na sua máquina, siga os passos abaixo:
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/SEU_USUARIO/uniao-embalagens-web.git](https://github.com/SEU_USUARIO/uniao-embalagens-web.git)
