@@ -33,9 +33,15 @@ export default function LoginPage() {
           </button>
         </form>
 
-        <p className="text-center text-sm text-gray-600 mt-8">
-          Ainda não tem conta? <Link href="/cadastro" className="text-[#e60000] font-semibold hover:underline">Cadastre-se</Link>
-        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mt-8 text-sm text-gray-600">
+          <Link href="/recuperar-senha" className="text-[#e60000] font-medium hover:underline">
+            Esqueci minha senha
+          </Link>
+          <span className="hidden sm:inline text-gray-300">|</span>
+          <p>
+            Ainda não tem conta? <Link href="/cadastro" className="text-[#e60000] font-semibold hover:underline">Cadastre-se</Link>
+          </p>
+        </div>
       </div>
     </main>
   );
