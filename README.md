@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 União Embalagens - E-commerce
 
-## Getting Started
+Um front-end moderno, rápido e responsivo de um e-commerce especializado em embalagens, artigos de festa, produtos de limpeza e materiais de escritório. 
 
-First, run the development server:
+Projeto desenvolvido como vitrine tecnológica utilizando as melhores práticas do ecossistema React.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 **[Acesse o projeto ao vivo aqui!](https://uniao-embalagens.vercel.app/)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto foi construído com as ferramentas mais modernas do desenvolvimento Front-end:
 
-## Learn More
+*   **Framework:** Next.js (App Router)
+*   **Biblioteca:** React
+*   **Linguagem:** TypeScript
+*   **Estilização:** Tailwind CSS (v4)
+*   **Deploy:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Funcionalidades e Telas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A aplicação simula o fluxo completo de compra de um utilizador:
 
-## Deploy on Vercel
+*   **Página Inicial (`/`):** Hero section de alto impacto com navegação rápida por categorias.
+*   **Catálogo (`/produtos`):** Grade de produtos responsiva com barra lateral estática para filtros por categoria, preço e marca.
+*   **Detalhes do Produto (`/produto`):** Galeria de imagens, seletor de quantidade com validação de estado (React State) e notificações visuais (Toasts) de adição ao carrinho.
+*   **Carrinho de Compras (`/carrinho`):** Gestão de estado dinâmica com cálculo automático de subtotal, controle de quantidade e opção de remover itens, além de resumo do pedido fixo (Sticky Sidebar).
+*   **Autenticação (`/login`):** Interface limpa e centralizada para login e cadastro de utilizadores.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Arquitetura do Projeto
+
+O código segue a padronização do mercado, isolando regras de ambiente da lógica visual utilizando a pasta `src`.
+
+*   **`src/app/`**: Sistema de roteamento (App Router) nativo do Next.js.
+*   **`src/components/`**: Componentes globais isolados (Header, Footer).
+*   **`globals.css`**: Configuração central do Tailwind CSS via `@source`.
+
+---
+
+
